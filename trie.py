@@ -100,7 +100,7 @@ class Trie(object):
 
 trie = Trie()
 
-with codecs.open('small1.txt', mode='r', encoding='utf-8') as f:
+with codecs.open('word.txt', mode='r', encoding='utf-8') as f:
     for line in f:
         if line:
             trie.add(line)
